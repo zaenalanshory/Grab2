@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tabs, WhiteSpace, Badge, Card } from 'antd-mobile';
 import Page2 from './Page2';
+import Page3 from './Page3';
 
 const tabs = [
   { title: <Badge text={'3'}>Transport</Badge> },
@@ -18,6 +19,7 @@ const IniTabBro = () => (
   <div>
     <Tabs
       tabs={tabs}
+      swipeable={false}
       initialPage={1}
       onChange={(tab, index) => {
         console.log('onChange', index, tab);
@@ -46,7 +48,7 @@ const IniTabBro = () => (
           height: '150px',
           backgroundColor: '#fff'
         }}>
-        Content of third tab
+        <Page3 />
       </div>
     </Tabs>
     <WhiteSpace />
