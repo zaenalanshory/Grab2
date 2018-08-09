@@ -13,19 +13,22 @@ function MyBody(props) {
 
 const data = [
   {
-    img: 'https://zos.alipayobjects.com/rmsportal/dKbkpPXKfvZzWCM.png',
-    title: 'Meet hotel',
-    des: '不是所有的兼职汪都需要风吹日晒'
+    img:
+      'http://masirul.com/wp-content/uploads/2016/07/makanan-khas-jepang-sushi.jpg',
+    title: 'Sushi Shimilikity',
+    des: 'Wuenak broo yok order'
   },
   {
-    img: 'https://zos.alipayobjects.com/rmsportal/XmwCzSeJiqpkuMB.png',
-    title: "McDonald's invites you",
-    des: '不是所有的兼职汪都需要风吹日晒'
+    img:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWC_92WIsRswah5sfYld9MYdbKmhR1GP8BxEjPtBnVJyrx5HuFAw',
+    title: 'Sandwich Kapal Selam',
+    des: 'Dapat gratis bro'
   },
   {
-    img: 'https://zos.alipayobjects.com/rmsportal/hfVtzEhPzTUewPm.png',
-    title: 'Eat the week',
-    des: '不是所有的兼职汪都需要风吹日晒'
+    img:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8VShfl-vb_wXvQ89ZGabp3Bl6XoZkxMXS4HznlAU2Mf4lfQcx',
+    title: 'Tempura Lek Goyang',
+    des: 'Beli satu Bayar 2'
   }
 ];
 const NUM_SECTIONS = 5;
