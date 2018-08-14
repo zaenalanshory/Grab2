@@ -208,6 +208,8 @@ class CardDetail extends Component {
             </List>
           </Accordion.Panel>
         </Accordion>
+        <Button type="primary">Beli</Button>
+        <WhiteSpace />
       </div>
     );
   }

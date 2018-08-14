@@ -1,6 +1,7 @@
 import { NavBar, Icon } from 'antd-mobile';
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Drawerss from './Drawer';
 
 class Navbar extends Component {
   render() {
@@ -20,7 +21,9 @@ class Navbar extends Component {
               type="shopping-cart"
               style={{ marginRight: '16px', color: 'blue' }}
             />,
-            <Icon key="1" type="ellipsis" />
+            <Icon key="1" type="ellipsis">
+              <Drawerss />
+            </Icon>
           ]}>
           GrabFood
         </NavBar>
